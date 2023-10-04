@@ -1,0 +1,15 @@
+p{
+    background-color: bisque;
+}
+a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: rgb(226, 20, 61);
+    background-color: rgb(181, 125, 234);
+}
+div{
+    background-color: cadetblue;
+}
+span{
+    background-color: brown;
+}

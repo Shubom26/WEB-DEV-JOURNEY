@@ -1,0 +1,7 @@
+CLS     Cumulative Layout Shift
+LCP     Largest Contentful Point    2.5 sec is a good score
+FID     First Input Delay   less than 100 milliseconds
+
+
+                Light House Report
+Learn more at web.dev
