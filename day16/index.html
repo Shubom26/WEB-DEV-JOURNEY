@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* element selector */
+        div {
+            background-color: red;
+        }
+
+        /* Class selector */
+        .green {
+            background-color: greenyellow;
+        }
+
+        /* id selector */
+        #adress {
+            background-color: aquamarine;
+        }
+
+        /* Child selector */
+        div>p {
+            color: bisque;
+            background-color: plum;
+        }
+        /* Descendant selector */
+        div article p {
+            color: black;
+            background-color: aquamarine;
+        }
+        /* universal selector */
+        *{
+            margin: 0;padding: o;
+        }
+        /* pesudo selector */
+        a:visited{
+            color: yellowgreen;
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: khaki;
+        }
+        a:hover{
+            color: beige; background-color: crimson;
+        }
+        .one :first-child{
+            background-color: blueviolet;
+        }
+         
+
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <p>I am first </p>
+        <p>I am second</p>
+    </div>
+    <div>I am a div
+        <p>this is a paragraph</p>
+        <article>
+            <p>this is another paragraph</p>
+        </article>
+    </div>
+    <div class="green">shubom deb</div>
+    <div id="adress">pailapool</div>
+    <a href="http://google.com" target="_blank">Go to google</a>
+
+
+</body>
+
+</html>
