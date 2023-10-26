@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Font text and color properties</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+        div>h1 {
+
+            letter-spacing: 23px;
+        }
+
+
+        p {
+            font-family: 'Pacifico', cursive;
+            font-size: 20px;
+            line-height: 1.5;
+            letter-spacing: .6pt;
+            /* font-style: italic; */
+            /* font-weight: bolder; */
+            /* text-decoration: underline; */
+        }
+
+        h2 {
+            text-transform: capitalize;
+            text-decoration: underline;
+            text-decoration-color: brown;
+            text-decoration-style: wavy;
+            text-decoration-thickness: 4px;
+        }
+
+        p#content {
+            /* text-decoration: underline; */
+            text-decoration-color: brown;
+            /* text-decoration-style: solid;
+            text-decoration-thickness: 4px; */
+            text-indent: 5px;
+            text-overflow: ellipsis;
+        }
+
+        .lorem {
+            border: 2px solid red;
+            width: 145px;
+            word-break: break-all;
+            text-align: center;
+            /* text-overflow: ellipsis;
+            overflow: hidden; */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Fonts</h1>
+    </div>
+    <h2>about fonts</h2>
+    <p>This is a page on fonts.</p>
+    <p id="content" class="lorem">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique, tempore vel.
+        Harum nesciunt impedit excepturi quam dolor repellat! Cupiditate libero exercitationem magnam, cum tempore natus
+        nisi repellendus amet aspernatur aliquam sunt vero voluptatibus magni. Distinctio officia suscipit, ipsum
+        obcaecati aspernatur voluptatibus consectetur eius facere laudantium velit? Commodi deserunt molestias doloribus
+        pariatur fugit omnis minus hic odio sed, eveniet vero necessitatibus sapiente similique earum ut, quam ipsum
+        libero nostrum veniam!</p>
+</body>
+
+</html>
