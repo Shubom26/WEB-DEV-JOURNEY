@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* width: 2048 px; */
+    width: 80vw;
+    margin: auto;
+    height: 10vh;
+    background-color: red;
+    /* pixcel is 196th of an inch */
+}
+
+.container {
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* width: 2048 px; */
+    width: 80vw;
+    margin: 23px auto;
+    
+    
+    min-height: 80vh;
+    background-color: aquamarine;
+    font-size: 16px;
+}
+.container p{
+    font-size: 1.2em;
+    color: red;
+    width: 50%;
+    border: 2px solid red;
+}
+.mycont{
+   
+    color: yellow;
+    font-size: 22px;
+    /* width: 100vmin; */
+    width: 100vmax;
+}
+html{
+    font-size: 12px;
+
+}

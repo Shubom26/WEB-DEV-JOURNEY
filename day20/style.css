@@ -1,0 +1,25 @@
+h1{
+    /* The specifity of this selector is 1 */
+    color: aqua;
+}
+
+.yellow{
+    /* The specifity of this selector is 10 */
+    color: yellow;
+}
+/* This is an example of attribute selector */
+[data-x="a"]{ 
+    color: maroon;
+    /* The specifity of this selector is 10 */
+}
+.cred{
+    /* The specifity of this selector is 10 */
+    color: red;
+}
+
+h1  .cpurple{
+   /* The specifity of this selector is 10 */ 
+   color: purple;
+}
+/* !Important > Inline style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector */
+
