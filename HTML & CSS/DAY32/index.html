@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float and Clear</title>
+    <style>
+        img{
+            width: 230px;
+            float: left;
+        }
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        .card{
+            border: 2px solid red;
+        }
+        .card:nth-child(3){
+            background-color: aqua;
+            clear: left;
+        }
+        .card:nth-child(2){
+            background-color: red;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="" >
+        <div class="card">Card 1
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde, velit laborum odit, sint distinctio alias odio pariatur natus libero dolore adipisci quam et quaerat accusantium eius sapiente inventore. Itaque quas earum reprehenderit aperiam libero. Lorem ipsum dolor </p>
+        </div>
+        <div class="card">Card 2
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam molestias eos minus. Possimus pariatur, quo vero, odit aliquam perspiciatis ullam aliquid doloremque voluptatem quos nulla, ea inventore quod tenetur saepe delectus vitae magnam? Dolores cupiditate facilis perspiciatis suscipit quis dignissimos laudantium dolorem non? Consequuntur, minima similique obcaecati quo unde voluptatum ab porro ad omnis odit eum ullam rerum quasi veniam perspiciatis dolorum corrupti expedita quia dolor, neque doloribus beatae nobis sit sequi. Id dolores, inventore numquam laborum adipisci consectetur sit voluptas quas mollitia labore tenetur maxime libero temporibus doloremque aspernatur magnam aliquam corporis natus pariatur. Totam eius aspernatur quasi, magni corporis odio laborum earum fuga unde quod nemo assumenda laudantium maxime eligendi saepe adipisci reiciendis, enim, accusamus aliquam reprehenderit? Similique aliquid impedit excepturi? Adipisci delectus dicta, at atque vel illo incidunt, asperiores quae animi velit consequatur ab placeat. Earum, magni impedit. Nisi itaque commodi nam aut, facilis laboriosam distinctio, eveniet non vitae est veniam placeat, rem nemo et officia? Necessitatibus doloribus voluptate est nihil fuga ipsum adipisci id ex quidem atque voluptatibus, ullam, distinctio similique dignissimos aspernatur. Ea, impedit? Id aperiam nisi, itaque voluptate rem fugit velit voluptatum, facere ratione eveniet assumenda recusandae nesciunt perspiciatis? Modi similique assumenda, hic consectetur enim numquam repudiandae cum rerum ratione sapiente neque vel qui obcaecati voluptatem sint impedit quae officia doloremque. Nostrum explicabo fugiat doloribus molestias repellendus earum porro excepturi? Accusamus possimus ratione culpa quisquam numquam aut natus eos neque assumenda reprehenderit aliquam sed voluptate necessitatibus eveniet, qui amet, corrupti repellendus ab, optio rerum veritatis officiis ea! Error cum quibusdam omnis et rem blanditiis dolorum illo! Corporis doloremque aspernatur reiciendis quos, sint temporibus nam ipsum quas quibusdam obcaecati. Voluptates soluta eius eos maiores neque debitis esse, sed fugit at laudantium iusto expedita, ut adipisci laborum nemo vitae sapiente corrupti incidunt officia aperiam vel, amet beatae quam temporibus. Suscipit, incidunt! Quo neque pariatur iusto vitae libero recusandae voluptatum qui natus corporis vel repudiandae iste aut quas tempore, adipisci omnis. Odio natus illo rem quod debitis necessitatibus eveniet ut?
+        </div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+</html>

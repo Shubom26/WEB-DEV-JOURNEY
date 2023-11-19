@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Making With CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: gray;
+            padding: 96px 567px;
+        }
+
+        .card {
+            background-color: rgb(246, 239, 239);
+            width: 344px;
+            height: 480px;
+            border-radius: 30px;
+            padding: 20px 0px;
+        }
+
+        .image {
+            padding: 7px;
+            /* margin: 10px; */
+            border-radius: 9px;
+        }
+
+        .image>img {
+            border-radius: 0px;
+        }
+
+        .content {
+            font-family: 'Pacifico', cursive;
+            font-family: 'Poppins', sans-serif;
+            padding: 3px 12px;
+            border-radius: 36px;
+        }
+
+        .content p {
+            font-size: 16px;
+            color: gray;
+        }
+
+        .content:hover {
+            background-color: khaki;
+        }
+
+        .capsule {
+            padding: 10px 20px;
+            font-family: 'Pacifico', cursive;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .capsule span {
+            border: 2px solid rgb(168, 156, 156);
+            padding: 0px 6px;
+            border-radius: 12px;
+        }
+
+        .button {
+            text-align: center;
+            padding: 0px;
+        }
+
+        .button>button {
+            text-align: center;
+            padding: 7px 23px;
+            border-radius: 28px;
+            background-color: rgb(217, 217, 254);
+            color: blue;
+            border: none;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .button>button:hover {
+            background-color: cornflowerblue;
+        }
+
+        div>.content {
+            background-color: rgba(169, 169, 169, 0.195);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img src="https://images.pexels.com/photos/3880179/pexels-photo-3880179.jpeg" alt="Man with boat"
+                width="328">
+        </div>
+        <div class="capsule">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+        <div class="content">
+            <h2>Shubom Deb</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsum repellendus molestias voluptates
+                cumque dolores soluta officiis. Vel nemo saepe quas quo cum.</p>
+        </div>
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+
+</html>
