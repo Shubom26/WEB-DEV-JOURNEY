@@ -1,0 +1,213 @@
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{ 
+    background-color: black;
+}
+.main{
+    background-image: url(assets/images/bg2.jpg);
+    height: 70vh;
+    width: 100vw;
+    position: relative;
+    top: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1265px, 100vw);
+}
+.main .box{
+    height: 70vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6969;
+    position: absolute;
+}
+nav > span > img{
+    width: 135px;
+    color: red;
+    position: relative;
+    z-index: 10;
+}
+    
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 74vw;
+    margin: auto;
+    height: 64px;
+    padding: 10px;
+}
+nav select{
+    position: relative;
+    z-index: 10;
+    border-radius: 4px;
+}
+nav > select > option{
+    color: black;
+    background-color: red;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+nav > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: calc(100% - 74px);
+    position: relative;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 23px;
+    padding: 0 30px;
+}
+.hero > :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.hero > :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.hero > :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.separation{
+    height: 7px;
+    background-color: rgb(41, 41, 41);
+    opacity: 0.8;
+    z-index: 20;
+    margin: 0 0 24px 0;
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-lan{
+    background-color: inherit;
+    opacity: 100%;
+    font-weight: bold;
+    padding: 3px 20px;
+    color: white;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}
+ .main > .hero > div > input{
+    background-color: black;
+    color: white;
+    padding: 5px 49px;
+    font-size: 18px;
+    border-radius: 4px;
+    opacity: 0.48;
+    font-weight: 300;
+    border: 1px solid rgba(255, 255, 255, 0.505);
+}
+.hero-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    height: 430px;
+    padding: 30px;
+    gap: 23px;
+}
+.secimg{
+    position: relative;
+}
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 20;
+    height: 339px;
+}
+.secimg > .video1 {
+    position: absolute;
+    right: 60px;
+    top: 70px;
+    width: 22vw;
+}
+.first > .div :nth-child(1){
+    font-size: 48px;
+}
+.first > .div :nth-child(2){
+    font-size: 24px;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    max-width: 312px;
+    max-height: 104px;
+    border-radius: 15px;
+    position: relative;
+    gap: 23px;
+    padding: 10px;
+    right: -66px;
+    top: -138px;
+    z-index: 30;
+    background-color: black;
+}
+.box2 > .pic2 > img{
+    height: 80px;
+    width: 57px;
+}
+.pic2-text :nth-child(1){
+    font-size: 16px;
+    color: white;
+}
+.pic2-text :nth-child(2){
+    font-size: 16px;
+    color: #0071EB;
+}
+.secimg{
+    position: relative;
+}
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 20;
+    height: 339px;
+}
+.secimg > .video2 {
+    position: absolute;
+    right: 78px;
+    top: 15px;
+    width: 19vw;
+}

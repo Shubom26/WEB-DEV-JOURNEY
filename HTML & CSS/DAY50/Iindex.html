@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Filters</title>
+</head>
+<style>
+    
+    .image1{
+        /* filter: blur(10px ); */
+        filter: brightness(110%);
+    }
+    .image2{
+        filter: brightness(150%) contrast(70%);
+        /* filter: ; */
+    }
+    .image3{
+        /* filter:grayscale(100%); */
+        filter: sepia(100%);
+        filter: invert(0);
+        filter: opacity(.2);
+    }
+</style>
+<body>
+    <div class="container">
+        <img class="image1" src="https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?size=626&ext=jpg" alt="">
+        <img src="https://c.ndtvimg.com/2023-09/154fgjlg_shah-rukh-khan-_625x300_23_September_23.jpg" alt="" class="image2">
+        <img src="https://images.hindustantimes.com/img/2022/11/12/550x309/akshay_kumar_1659860706633_1668255913307_1668255913307.jpg" alt="" class="image3">
+    </div>
+</body>
+</html>

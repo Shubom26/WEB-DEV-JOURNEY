@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid 2</title>
+    <style>
+        .container {
+            width: 80vw;
+            height: 100vh;
+            border: 2px solid black;
+            display: grid;
+            /* grid-template-areas: "nav nav nav"
+            "side article article"
+            "footer footer footer"; */
+            grid-template-columns: 1fr 1fr 1fr;
+            /* gap: 34px; */
+            row-gap: 10px;
+            column-gap: 25px;
+            justify-items: center;
+            align-items: center;
+
+
+        }
+
+        .items {
+            border: 2px solid red;
+            height: 55px;
+            width: 55px;
+        }
+
+        /* .item1 {
+            grid-area: nav;
+            background-color: blue;
+        } */
+
+         .item2 {
+            /* grid-area: side;
+            background-color: brown; */
+            align-self: start;
+            justify-self: end;
+         }
+
+         /* .item3 {
+            grid-area: article;
+            background-color: blueviolet;
+         } */
+
+         /* .item4 {
+            grid-area: footer;
+            background-color: yellow;
+         } */
+         /* .item5 {
+            grid-area: nav;
+            
+         }  */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="items item1">1</div>
+        <div class="items item2">2</div>
+        <div class="items item3">3</div>
+        <div class="items item4">4</div>
+        <div class="items item5">5</div>
+
+    </div>
+</body>
+
+</html>
